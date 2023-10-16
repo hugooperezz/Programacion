@@ -16,7 +16,7 @@ public class Ejercicio2 {
 					System.out.println("Tu numero es positivo");
 				}
 
-
+		sc2.close();
 
 	}
 

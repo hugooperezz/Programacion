@@ -14,7 +14,8 @@ public class Ejercicio4 {
 		}else {
 			System.out.println("Todavia eres menor perro");
 		}
-
+		
+		sc4.close();
 	}
 
 }

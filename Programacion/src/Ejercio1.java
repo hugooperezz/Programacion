@@ -14,7 +14,7 @@ public class Ejercio1 {
 			System.out.println("Lo siento has suspendido con un " + nota);
 		}
 
-
+		sc.close();
 	}
 
 }

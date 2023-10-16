@@ -14,6 +14,7 @@ public class Ejercicio3 {
 			System.out.println("Tu numero es impar");
 		}
 
+		sc3.close();
 	}
 
 }

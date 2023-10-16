@@ -8,14 +8,15 @@ public class Ejercicio5 {
 			System.out.println("Introduzca un numero");
 				int nrango = sc5.nextInt();
 		
-		if (nrango > 100) {
+		if (nrango > 100 && nrango < 0) {
 			System.out.println(nrango + " esta fuera del rango");
 		}else if (nrango < 0) {
 			System.out.println(nrango + " esta fuera del rango");
 		}else {
 			System.out.println(nrango + " esta dentro del rango");
 		}
-
+		
+		sc5.close();
 	}
 
 }
