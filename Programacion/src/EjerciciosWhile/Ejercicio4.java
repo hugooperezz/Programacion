@@ -18,9 +18,9 @@ public class Ejercicio4 {
 			n = sc.nextInt();
 			if(n < random){
 				System.out.println("El numero es mas alto");
-			} else if (n > random) {
+			}else if (n > random){
 				System.out.println("El numero es mas bajo");
-			} else if (n == random) {
+			}else if (n == random){
 				System.out.println("Muy bien has acertado");
 			}
 		}
