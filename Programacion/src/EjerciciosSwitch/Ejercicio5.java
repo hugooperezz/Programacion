@@ -11,7 +11,10 @@ public class Ejercicio5 {
 				int nota = sc.nextInt();
 				
 		switch (nota) {
-			case 1/2:
+			case 1:
+				System.out.println("Suspenso");
+			break;
+			case 2:
 				System.out.println("Suspenso");
 			break;
 			case 3:
