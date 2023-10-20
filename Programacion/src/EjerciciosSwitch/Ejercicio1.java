@@ -8,14 +8,32 @@ public class Ejercicio1 {
 		
 		Scanner sc = new Scanner(System.in);
 			System.out.println("Introduzca un numero del 1 al 7");
-			int dianumero = sc.nextInt();
-			String dia2
+			int n = sc.nextInt();
 			
-		switch (dia){
+		switch (n){
 			case 1:
-				dia = "Lunes";
+				System.out.println("Lunes");
+				break;
 			case 2:
-				dia = "Martes";
+				System.out.println("Martes");
+				break;
+			case 3:
+				System.out.println("Miercoles");
+				break;
+			case 4:
+				System.out.println("Jueves");
+				break;
+			case 5:
+				System.out.println("Viernes");
+				break;
+			case 6:
+				System.out.println("Sabado");
+				break;
+			case 7:
+				System.out.println("Domingo");
+				break;
+			default:
+				System.out.println("No existe un dia de la semana con el numero " + n);
 		}
 		sc.close();
 	}

@@ -19,8 +19,6 @@ public class Ejercicio2 {
 				System.out.println("Los numeros pares son " + i);
 			}
 			i++;
-			//suma =+ i;
-			//System.out.println("Los numeros pares son " + i);
 		}while(n >= i);
 		
 		System.out.println("La suma total de todos los pares de uno hasta " + n + " " + suma);
