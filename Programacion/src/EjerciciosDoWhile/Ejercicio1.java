@@ -2,8 +2,16 @@ package EjerciciosDoWhile;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+/**
+ * Ejercicio DoWhile
+ * @author Hugo
+ */
 
+public class Ejercicio1 {
+/**
+ * Esta clase 
+ * @param args
+ */
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

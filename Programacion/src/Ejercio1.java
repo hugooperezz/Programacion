@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+/**Esta clase dependiendo de la nota que tengas te felicitara o no**/
+
 public class Ejercio1 {
 
 	public static void main(String[] args) {
