@@ -8,7 +8,7 @@ public class Ejercicio4 {
 	public static void main(String[] args) {
 		
 		int random = ThreadLocalRandom.current().nextInt(0, 100 + 1);
-		System.out.println("Se ha generado un numero aleatorio");
+		System.out.println("Se ha generado un numero aleatorio del 0 al 100");
 		
 		Scanner sc = new Scanner(System.in);
 			System.out.println("Introduzca el numero que usted cree que se ha generado");
