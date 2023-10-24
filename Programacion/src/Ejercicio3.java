@@ -13,7 +13,6 @@ public class Ejercicio3 {
 		}else {
 			System.out.println("Tu numero es impar");
 		}
-
 		sc3.close();
 	}
 

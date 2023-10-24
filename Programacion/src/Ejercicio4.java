@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Ejercicio4 {
+	
+/**
+ * 
+ * @param args
+ */
 
 	public static void main(String[] args) {
 		
