@@ -26,14 +26,14 @@ public class Ejercicio4 {
 	
 	public static void main(String[] args) {
 		
-		 Scanner sc1 = new Scanner(System.in);
+		 Scanner sc = new Scanner(System.in);
 	        System.out.println();
-	        String n = sc1.nextLine();
-	        String invert = invertir(n); //Es un metodo creado anteriormente que te invierte la frase
+	        String frase = sc.nextLine();
+	        String frase_invertida = invertir(frase); //Es un metodo creado anteriormente que te invierte la frase
 
-	        System.out.println(invert);
+	        System.out.println(frase_invertida);
 	        
-	     sc1.close();
+	     sc.close();
 
 	}
 

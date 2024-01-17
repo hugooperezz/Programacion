@@ -15,10 +15,10 @@ public class Ejercicio5 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Intoduce una palabra");
 		
-		String n = sc.nextLine();
-        String invert = invertir(n);
+		String frase = sc.nextLine();
+        String frase_invertida = invertir(frase);
         
-        if (n.equals(invert)) {
+        if (frase.equals(frase_invertida)) {
         	System.out.println("Es una palindromo");
         } else {
         	System.out.println("No es un palindromo");

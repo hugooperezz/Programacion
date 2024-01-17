@@ -16,9 +16,9 @@ public class Ejercicio1 {
 		
 		Scanner sc = new Scanner(System.in);
 			System.out.println("Introduce el numero de dia de la semana");
-			int n = sc.nextInt();
+			int numero_dia = sc.nextInt();
 			
-		switch ( n ) {
+		switch ( numero_dia ) {
 			case (1):
 				hoy = Dias.LUNES;
 				System.out.println("Hoy es " + hoy);
